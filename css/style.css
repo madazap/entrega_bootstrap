@@ -15,9 +15,12 @@ a:hover{
     text-shadow: 3px;
 }
 
-.container{
+.container-fluid{
     background-color: black;
     margin: 0px;
+}
+.contactoform{
+    width: 50%;
 }
 
 .row{
@@ -31,13 +34,16 @@ ul li{
     display: inline;
     padding-left: 2rem;
     padding-top: 2rem;
+    color: white;
 }
 
 .barra{
     background-color: black;
     color: white;
-    padding-left: 3rem;
+    padding-left: 4rem;
     margin-right: 3rem;
+    width: 100%;
+
 }
 
 .mano{
@@ -55,13 +61,7 @@ h1{
 
 .foot{
     color: white;
-    
+    padding: 1rem;
+    text-decoration: solid;
 }
 
-.row{
-    width: 100%;
-}
-
-.container{
-    width: 100%;
-}
